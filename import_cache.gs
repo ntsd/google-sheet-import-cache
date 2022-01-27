@@ -89,5 +89,6 @@ function IMPORTDATACACHE(url, delimiter) {
 
 function IMPORTDATACACHE_TEST() {
   const url = 'https://people.sc.fsu.edu/~jburkardt/data/csv/addresses.csv';
-  IMPORTDATACACHE(url);
+  const result = IMPORTDATACACHE(url);
+  console.log(result);
 }
